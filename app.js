@@ -27,7 +27,7 @@ async function checkWeather (city){
           weatherIcon.src = "img/clouds.png";
         } else if (data.weather[0].main == "Rain") {
           weatherIcon.src = "img/rain.png";
-        } else if (data.weather[0].main == "Dlear") {
+        } else if (data.weather[0].main == "Clear") {
           weatherIcon.src = "img/clear.png";
         } else if (data.weather[0].main == "Drizzle") {
           weatherIcon.src = "img/drizzle.png";
